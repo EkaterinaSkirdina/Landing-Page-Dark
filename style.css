@@ -35,7 +35,7 @@ body {
     font-weight: 600;
     line-height: normal;
     text-decoration: none;
-    padding: 39px 12px;
+    padding: 39px 16px;
 }
 
 .header-link:hover {
@@ -208,7 +208,7 @@ body {
 }
 
 .about {
-    margin-bottom: 221px;
+    margin-bottom: 269px;
 }
 
 .title-about {
@@ -222,7 +222,6 @@ body {
 }
 
 .footer {
-    padding-top: 48px;
     padding-bottom: 46px;
 }
 
@@ -298,10 +297,13 @@ body {
         justify-content: center;
     }
 
+    .logo {
+        margin-bottom: 277px;
+    }
+
     .logo>.flex {
         flex-direction: row;
         gap: 32px;
-        margin-bottom: 277px;
     }
 
     .AI-left {
@@ -314,7 +316,6 @@ body {
     }
 
     .item {
-
         max-width: 362px;
     }
 
@@ -329,5 +330,146 @@ body {
     .footer>.flex {
         justify-content: space-between;
         gap: 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding-left: calc(50% - 170px);
+        padding-right: calc(50% - 170px);
+    }
+
+    .header {
+        margin-bottom: 86px;
+    }
+
+    .header-link {
+        font-size: 14px;
+        padding: 39px 7px;
+    }
+
+    .main {
+        margin-bottom: 128px;
+    }
+
+    .main-left {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-left a:not(:last-child) {
+        margin-bottom: 24px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .heading {
+        font-size: 28px;
+        margin-bottom: 64px;
+    }
+
+    .text-main {
+        margin-bottom: 39px;
+    }
+
+    .main-left a:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .logo {
+        margin-bottom: 204px;
+    }
+
+    .AI-right {
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .title-AI {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .text-AI {
+        margin-bottom: 16px;
+    }
+
+    .AI {
+        margin-bottom: 96px;
+    }
+
+    .cards {
+        margin-bottom: 96px;
+    }
+
+    .about {
+        margin-bottom: 209px;
+        text-align: center;
+    }
+
+    .title-about {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .text-about {
+        margin-bottom: 16px;
+    }
+
+    .about-left {
+        margin-bottom: 16px;
+    }
+
+    .about {
+        margin-bottom: 209px;
+    }
+
+    .footer {
+        padding-bottom: 64px;
+        max-width: 340px;
+    }
+
+    .footer>.flex {
+        position: relative;
+        min-height: 425px;
+    }
+
+    .info {
+        width: 100%;
+        position: absolute;
+        top: 32%;
+    }
+
+    .store-about1 {
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+
+    .store-about2 {
+        width: 100%;
+        position: absolute;
+        top: 78%;
+        text-align: center;
+    }
+
+    .caption {
+        text-align: center;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+
+    .footer {
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
